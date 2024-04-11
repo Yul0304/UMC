@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>To_Do_List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- title -->
+    <h1 class="title" id="To_Do_List_Title">
+        UMC Study Plan
+    </h1>
+
+    <!-- content -->
+    <div class="container">
+        <div class="input" id="input_div">
+            <input id="inputfield" type="text" placeholder="스터디 계획을 작성해보세요!">
+        </div>
+        <div class="contents">
+            <!-- to do list -->
+            <div class="listTitle">
+                <h2>해야 할 일</h2>
+            </div>
+
+            <!-- done list -->
+            <div class="listTitle">
+                <h3>해낸 일</h3>
+            </div>
+            <div class="list" id="ToDo"></div>
+            <div class="list" id="finished"></div>
+        </div>
+    </div>
+
+    <script src="./to_do_list.js"></script>
+</body>
+
+</html>

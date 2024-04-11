@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>sign_up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <article class="container">
+        <div id="div1">
+            <!--sign up header -->
+            <div class="content" id="sign_up_div">회원가입</div>
+            <!-- name -->
+            <div class="content" id="name_div">이름
+                <div class="input" id="name_input">
+                    <input type="text" name="user_name" size=20 id="user_name">
+                </div>
+                <div class="message" id="name_message"></div>
+            </div>
+
+            <div class="content" id="email_div">이메일
+                <div class="input" id="email_input">
+                    <input type="text" name="email" size=20 id="email">
+                </div>
+                <div class="message" id="email_message"></div>
+            </div>
+
+            <div class="content" id="age_div">나이
+                <div class="input" id="age_input">
+                    <input type="text" name="user_age" size=20 id="user_age">
+                </div>
+                <div class="message" id="age_message"></div>
+            </div>
+
+            <div class="content" id="password_div">비밀번호
+                <div class="input" id="password_input">
+                    <input type="password" name="user_password" size=20 id="user_password">
+                </div>
+                <div class="message" id="password_message"></div>
+            </div>
+
+            <div class="content" id="password_validation_div">비밀번호 확인
+                <div class="input" id="password_validation_input">
+                    <input type="password" name="user_password_validation" size=20 id="user_password_validation">
+                </div>
+                <div class="message" id="password_validation_message"></div>
+            </div>
+            <!-- 가입성공 화면 -->
+            <div class="success" style="display: none;">
+                <div class="success_div">
+                    <div class="title">가입성공!
+                        <p>umc 챌린저 가입을 축하합니다!!</p>
+                        <div class="close-wrapper">
+                            <button class="button" id="close">닫기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="sign_up_button">가입하기</button>
+        </div>
+    </article>
+    <script src="./sign_up.js"></script>
+</body>
+
+</html>
